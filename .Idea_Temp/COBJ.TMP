@@ -1,0 +1,44 @@
+
+header:
+
+executable format
+processor number 6, type 3
+11 sections
+11 symbols
+33 debug symbols
+
+sections:
+
+.vector: hilo code, at address 0x8000
+      128 data  bytes (0x0080)
+.const: no attribute, at address 0x8080
+        0 data  bytes (0x0000)
+.text: hilo code, at address 0x8080
+       58 data  bytes (0x003a)
+.eeprom: no attribute, at address 0x4000
+        0 data  bytes (0x0000)
+.bsct: no attribute, at address 0x0
+        0 data  bytes (0x0000)
+.ubsct: no attribute, at address 0x0
+        0 data  bytes (0x0000)
+.bit: no attribute, at address 0x0
+        0 data  bytes (0x0000)
+.data: no attribute, at address 0x0
+        0 data  bytes (0x0000)
+.bss: no attribute, at address 0x0
+        0 data  bytes (0x0000)
+.debug: hilo, at address 0x0
+      446 data  bytes (0x01be)
+.info.: no attribute, at address 0x0
+      334 data  bytes (0x014e)
+
+symbols:
+
+__memory:       00000000 section .bss defined public
+__endzp:        00000000 section .ubsct defined public
+_myDelay:       00008089 section .text defined public
+_main:          000080a4 section .text defined public
+__stack:        000003ff section absolute defined public absolute
+_exit:          00008087 section .text defined public
+__vectab:       00008000 section .vector defined public
+__stext:        00008080 section .text defined public
